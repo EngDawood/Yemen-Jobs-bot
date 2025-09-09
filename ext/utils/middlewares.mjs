@@ -49,8 +49,12 @@ export const isAdmin = async (ctx, next) => {
 
 // Spam protection middleware
 export const spamProtection = async (ctx, next) => {
+  const ownerId = process.env.OWNER_ID;
+  const userId = ctx.from.id.toString();
+  if (userId === ownerId) {
+    return next();
+  }
   try {
-    const userId = ctx.from.id.toString();
     const command = ctx.message.text.split(' ')[0];
     const now = new Date();
 

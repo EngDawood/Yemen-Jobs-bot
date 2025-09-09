@@ -16,3 +16,11 @@ api/parserapi/ENV/
 api/parserapi/.env/
 api/parserapi/.venv/
 api/parserapi/venv*/
+
+.clinerules/ 
+context7.json
+.gemini/
+GEMINI.md 
+QWEN.md
+CLAUDE.md
+*-workspace

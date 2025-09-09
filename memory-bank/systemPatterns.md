@@ -10,7 +10,7 @@ RSS-ify follows a modular architecture that separates concerns into distinct com
 
 - **Scheduled Jobs**: The `ext/sendRss.mjs` module likely contains the logic for a scheduled job that runs periodically. This job is responsible for fetching the latest content from all subscribed RSS feeds and sending updates to the respective users or groups.
 
-- **Middleware**: The `ext/utils/middlewares.mjs` file suggests the use of middleware, likely within the Grammy framework, to handle tasks like authentication, logging, or pre-processing of incoming messages before they reach the command handlers.
+- **Middleware**: The `ext/utils/middlewares.mjs` file suggests the use of middleware, likely within the Grammy framework, to handle tasks like authentication, logging, or pre-processing of incoming messages before they reach the command handlers. A `spamProtection` middleware is in place to prevent abuse, with a bypass for the bot owner, whose ID is set in the `OWNER_ID` environment variable.
 
 ## Component Relationships
 ```mermaid
