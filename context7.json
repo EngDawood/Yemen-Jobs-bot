@@ -1,0 +1,20 @@
+{
+  "libraries": {
+    "@supabase/supabase-js": "/supabase/supabase-js",
+    "axios": "/axios/axios",
+    "feedparser": "/kurtmckee/feedparser",
+    "grammy": "/websites/grammy_dev",
+    "xml2js": "/leonidas-from-xiv/node-xml2js",
+    "flask": "/pallets/flask",
+    "waitress": "/pylons/waitress",
+    "listparser": "/kurtmckee/listparser",
+    "lxml": "/lxml/lxml",
+    "pillow": "/python-pillow/pillow",
+    "beautifulsoup4": "/wention/beautifulsoup4",
+    "rapidfuzz": "/rapidfuzz/rapidfuzz",
+    "emoji": "/carpedm20/emoji",
+    "minify-html": "/wilsonzlin/minify-html",
+    "requests": "/psf/requests",
+    "selectolax": "/rushter/selectolax"
+  }
+}

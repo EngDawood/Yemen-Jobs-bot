@@ -1,0 +1,14 @@
+node_modules/
+!node_modules/bin/
+/venv/
+*.lua
+*.bak
+
+# Python virtual environments
+api/parserapi/venv/
+api/parserapi/__pycache__/
+api/parserapi/env/
+api/parserapi/ENV/
+api/parserapi/.env/
+api/parserapi/.venv/
+api/parserapi/venv*/

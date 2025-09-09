@@ -1,23 +1,22 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Burhanverse/assets/refs/heads/main/rssify-card-final.svg" alt="RSS-ify Bot" width="130">
 </p>
-<h1 align="center">RSS-ify</h1>
+<h1 align="center">Yemen-Jobs-bot</h1>
 
-<p align="center"><b>A lightweight telegram bot powered by NodeJS™, that helps you stay updated by delivering content from your favorite feeds directly to your group chat or in private. Customize, organize, and manage your subscriptions effortlessly!</b></p>
+<p align="center"><b>A lightweight telegram bot powered by NodeJS™, that helps you stay updated with the latest job opportunities in Yemen. Delivered directly to your group chat or in private.</b></p>
 
 <div align="center">
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Burhanverse/rssify?logo=git&label=commit)](https://github.com/Burhanverse/rssify/commits)
-[![Code quality](https://img.shields.io/codefactor/grade/github/Burhanverse/rssify?logo=codefactor)](https://www.codefactor.io/repository/github/Burhanverse/rssify)
-[![GitHub stars](https://img.shields.io/github/stars/Burhanverse/rssify?style=social)](https://github.com/Burhanverse/rssify/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Burhanverse/rssify?style=social)](https://github.com/Burhanverse/rssify/fork)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/EngDawood/Yemen-Jobs-bot?logo=git&label=commit)](https://github.com/EngDawood/Yemen-Jobs-bot/commits)
+[![Code quality](https://img.shields.io/codefactor/grade/github/EngDawood/Yemen-Jobs-bot?logo=codefactor)](https://www.codefactor.io/repository/github/EngDawood/Yemen-Jobs-bot)
+[![GitHub stars](https://img.shields.io/github/stars/EngDawood/Yemen-Jobs-bot?style=social)](https://github.com/EngDawood/Yemen-Jobs-bot/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/EngDawood/Yemen-Jobs-bot?style=social)](https://github.com/EngDawood/Yemen-Jobs-bot/fork)
 
 </div>
 
 ## Deployment
 ```
-git clone --recurse-submodules https://github.com/Burhanverse/rssify.git
-cd rssify
+git clone --recurse-submodules https://github.com/EngDawood/Yemen-Jobs-bot.git
+cd Yemen-Jobs-bot
 ```
 
 clean start with git pull
@@ -28,16 +27,11 @@ dirty run with git pull
 ```
 bash start.sh -d 
 ```
-start rssify directly
+start Yemen-Jobs-bot directly
 ```
 bash  start.sh
 ```
 
 ### Using the official bot instance
 
-The [RSS-ify bot](https://t.me/rssifyxbot) comes with absolute no warranty. I will try my best to maintain it, but I won't guarantee that it will always work perfectly. Meanwhile, you should "fair use" the bot, avoid subscribing to too many RSS feeds.
-
-## Attribution
-
-This project is a fork of [Yemen-Jobs-bot](https://github.com/EngDawood/Yemen-Jobs-bot.git) by EngDawood. Significant modifications and enhancements have been made to adapt it for RSS feed delivery.
-
+The [Yemen-Jobs-bot](https://t.me/Yemenhrbot) comes with absolute no warranty. I will try my best to maintain it, but I won't guarantee that it will always work perfectly.
