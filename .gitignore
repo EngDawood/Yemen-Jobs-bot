@@ -1,0 +1,10 @@
+node_modules
+venv
+.codebuddy
+config.json
+beta.mjs
+*.lua
+.env
+*.bak
+main.env
+test.env
