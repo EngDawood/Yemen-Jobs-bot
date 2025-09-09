@@ -8,3 +8,11 @@ beta.mjs
 *.bak
 main.env
 test.env
+
+# Python virtual environments
+api/parserapi/venv/
+api/parserapi/env/
+api/parserapi/ENV/
+api/parserapi/.env/
+api/parserapi/.venv/
+api/parserapi/venv*/
